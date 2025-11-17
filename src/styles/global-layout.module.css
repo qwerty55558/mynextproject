@@ -1,0 +1,21 @@
+@reference "./globals.css";
+
+.container {
+    @apply mx-auto p-4 shadow-2xl;
+    background-color: white;
+    max-width:600px;
+    min-height: 100vh;
+}
+
+.header {
+    @apply font-bold text-3xl mb-4 h-[60px];
+    line-height: 60px;
+}
+
+.main {
+    padding-top: 10px;
+}
+
+.footer {
+    @apply text-sm text-gray-500 mt-8 mb-4;
+}
