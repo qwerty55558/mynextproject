@@ -1,5 +1,12 @@
 @reference "./globals.css";
 
-.h1 {
-    @apply text-5xl font-bold;
+.h3 {
+    @apply text-xl font-bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }

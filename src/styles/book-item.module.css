@@ -1,0 +1,23 @@
+@reference "./globals.css";
+
+.container {
+    @apply flex items-center gap-2;
+    padding: 20px 10px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    & img {
+        width: 80px;
+    }
+}
+
+
+.title {
+    @apply font-bold;
+}
+
+.subTitle {
+    word-break: keep-all;
+}
+
+.author {
+    color: gray;
+}
